@@ -1,5 +1,4 @@
-[jQuery Validation Plugin](http://jqueryvalidation.org/) - Form validation made easy
-================================
+# [jQuery Validation Plugin](http://jqueryvalidation.org/) - Form validation made easy
 
 [![Build Status](https://secure.travis-ci.org/jzaefferer/jquery-validation.png)](http://travis-ci.org/jzaefferer/jquery-validation)
 [![devDependency Status](https://david-dm.org/jzaefferer/jquery-validation/dev-status.png?theme=shields.io)](https://david-dm.org/jzaefferer/jquery-validation#info=devDependencies)
@@ -25,9 +24,9 @@ Prebuilt files can be downloaded from http://jqueryvalidation.org/
 
 The unreleased development files can be obtained by:
 
- 1. [Downloading](https://github.com/jzaefferer/jquery-validation/archive/master.zip) or Forking this repository
- 2. [Setup the build](CONTRIBUTING.md#build-setup)
- 3. Run `grunt` to create the built files in the "dist" directory
+1.  [Downloading](https://github.com/jzaefferer/jquery-validation/archive/master.zip) or Forking this repository
+2.  [Setup the build](CONTRIBUTING.md#build-setup)
+3.  Run `grunt` to create the built files in the "dist" directory
 
 ### Including it on your page
 
@@ -35,20 +34,20 @@ Include jQuery and the plugin on a page. Then select a form to validate and call
 
 ```html
 <form>
-	<input required>
+  <input required />
 </form>
 <script src="jquery.js"></script>
 <script src="jquery.validate.js"></script>
 <script>
-$("form").validate();
+  $("form").validate();
 </script>
 ```
 
 Alternatively include jQuery and the plugin via requirejs in your module.
 
 ```js
-define(["jquery", "jquery.validate"], function( $ ) {
-	$("form").validate();
+define(["jquery", "jquery.validate"], function ($) {
+  $("form").validate();
 });
 ```
 
@@ -61,5 +60,6 @@ See the [Contributing Guidelines](CONTRIBUTING.md) for details.
 **IMPORTANT NOTE ABOUT EMAIL VALIDATION**. As of version 1.12.0 this plugin is using the same regular expression that the [HTML5 specification suggests for browsers to use](https://html.spec.whatwg.org/multipage/forms.html#valid-e-mail-address). We will follow their lead and use the same check. If you think the specification is wrong, please report the issue to them. If you have different requirements, consider [using a custom method](http://jqueryvalidation.org/jQuery.validator.addMethod/).
 
 ## License
+
 Copyright &copy; Jörn Zaefferer<br>
 Licensed under the MIT license.
