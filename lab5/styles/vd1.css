@@ -301,12 +301,11 @@ body {
 }
 
 .shopping_cart {
-  display: flex;
-  flex-direction: row;
   background-image: url(../images/layout/cart_bg.gif);
   background-repeat: no-repeat;
 }
 
 #shopping_cart_information {
-  margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
