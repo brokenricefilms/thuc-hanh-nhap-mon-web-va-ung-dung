@@ -15,11 +15,11 @@ document.getElementById("buttonNew").onclick = function () {
 
 function checkResult() {
   if (inputResultValue === sumRandomNumber) {
-    document.getElementById("result").valuestyle.color = green;
     document.getElementById("result").innerHTML = "Đúng";
+    document.getElementById("result").valuestyle.color = green;
   } else {
-    document.getElementById("result").value.style.color = red;
     document.getElementById("result").innerHTML = "Sai";
+    document.getElementById("result").value.style.color = red;
   }
 }
 
