@@ -11,3 +11,8 @@ table {
 #plusChar {
   font-size: 20px;
 }
+
+.fontTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
