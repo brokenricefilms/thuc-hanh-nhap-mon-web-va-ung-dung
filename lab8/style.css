@@ -1,0 +1,13 @@
+table {
+  border: 1px solid skyblue;
+}
+
+#randomNumber1,
+#randomNumber2 {
+  background-color: lightgray;
+  border: none;
+}
+
+#plusChar {
+  font-size: 20px;
+}
