@@ -25,5 +25,6 @@
 }
 
 .nav-bar {
+  clear: both;
   color: black;
 }
