@@ -1,0 +1,28 @@
+.left-header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text-center {
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right-header {
+  padding: 10px;
+  background-color: #7f955f;
+  color: white;
+}
+
+.title-font {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-bar {
+  color: black;
+}
