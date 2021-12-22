@@ -1,15 +1,11 @@
 .left-header {
-  position: relative;
+  background-image: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  width: 564px;
+  height: 150px;
   text-align: center;
-  color: white;
-}
-
-.text-center {
   font-size: 35px;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .right-header {
@@ -26,5 +22,17 @@
 
 .nav-bar {
   clear: both;
+  background-color: #a9cf8f;
+  height: 30px;
+}
+
+td > a {
+  text-decoration: none;
   color: black;
+}
+
+.footer {
+  background-image: url(../img/bgfooter.gif);
+  height: 30px;
+  text-align: center;
 }
