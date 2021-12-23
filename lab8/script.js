@@ -18,7 +18,7 @@ document.getElementById("buttonCheckResult").onclick = function () {
 
   if (inputResultValue == sumRandomNumber) {
     document.getElementById("result").innerHTML =
-      "<span style='color: green'>Đúng</span>";
+      "<span style='color: green'></span>";
   } else {
     document.getElementById("result").innerHTML =
       "<span style='color: red'>Sai</span>";
