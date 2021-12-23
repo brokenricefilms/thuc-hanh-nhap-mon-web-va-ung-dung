@@ -4,6 +4,7 @@ let sumRandomNumber = 0;
 
 document.getElementById("buttonNew").onclick = function () {
   randomNumber1Value = Math.floor(Math.random() * 100) + 1;
+  // Math.random()
   document.getElementById("randomNumber1").value = randomNumber1Value;
 
   randomNumber2Value = Math.floor(Math.random() * 100) + 1;
