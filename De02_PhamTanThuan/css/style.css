@@ -1,7 +1,5 @@
-.nav {
-  height: 30px;
-  background-color: #e5e4e2;
-  color: #3090c7;
+body {
+  background-color: black;
 }
 
 a {
@@ -13,4 +11,21 @@ a {
   text-align: center;
   color: #3090c7;
   background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  background-color: #e5e4e2;
+  color: #3090c7;
+  height: 30px;
+}
+
+li {
+  display: inline;
+}
+
+.main {
+  background-color: white;
 }
